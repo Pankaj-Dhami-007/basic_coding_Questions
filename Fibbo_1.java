@@ -12,8 +12,9 @@ public class Fibbo_1 {
           }
           int a = 0;
           int b = 1;
-          int c = a+b;
+        
           for(int i =2; i< n; i++){
+            int c = a+b;
             int temp = b;
             b = c;
             a = temp;
